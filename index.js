@@ -26,7 +26,7 @@ export default {
     if (url.pathname === "/api/hello") {
       const name = url.searchParams.get("name") || "guest"
       return Response.json({
-        message: `Hello ${name}`
+        message: `Hello ${name}. Go 🤬 yourself!`
       })
     }
 
