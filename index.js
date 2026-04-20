@@ -17,6 +17,12 @@ export default {
       )
     }
 
+    if /url.pathname === "api/joke") {
+      return Response.json({
+        "Look in the mirror"
+      })
+    }
+
     if (url.pathname === "/api/time") {
       return Response.json({
         time: new Date().toISOString()
