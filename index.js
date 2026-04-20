@@ -17,7 +17,7 @@ export default {
       )
     }
 
-    if /url.pathname === "api/joke") {
+    if (/url.pathname === "api/joke") {
       return Response.json({
         "Look in the mirror"
       })
